@@ -96,6 +96,7 @@
   line-height: 1.2;
   font-weight: normal;
   color: #2F80ED;
+  margin: 0;
 }
 .two-columns__main-text{
   font-size: 24px;
@@ -104,16 +105,18 @@
   width: 80%;
   min-width: 784px;
 }
-.two-columns_margin_30{
+.two-columns__paragraph{
+  margin: 0;
+}
+.two-columns__paragraph_margin_30{
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.two-columns_p_margin_0{
-  margin: 0;
-}
+
 .two-columns_span-accent{
   font-weight: bold;
 }
+
 /*block digits*/
 .section-title{
   text-align: center;
@@ -169,10 +172,12 @@
   width: 648px;
   margin: auto;
   text-align: center;
-  margin-top: 100px;
+  padding-top: 100px;
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
+  z-index: 2;
+  position: relative;
 }
 .feynman__subtitle{
   margin: auto;
@@ -198,37 +203,32 @@
   position: absolute;
   bottom: 0px;
   left: 0px;
-  width: 867;
-  height: 637;
+  width: 867px;
+  height: 637px;
 }
 
 /**/
+
 .kaufman{
   background-color: #1f1f1f;
   position: relative;
   overflow: hidden;
   z-index: -2;
 }
-.section-title_paddingtop_90{
-  padding-top: 90px;
-}
-.table__cell_width_200{
-  width: 200px;
-}
-.table__cell_margin-top_80{
-  margin-top: 80px;
-}
 .table_margin-bottom_90{
   margin-bottom: 90px;
 }
 .section-title_theme_dark{
   color: #f2f2f2;
+  padding-top: 90px;
 }
 .section-subtitle_theme_dark{
   color: #f2f2f2;
 }
 .table__cell_theme_dark{
   color: #f2f2f2;
+  width: 200px;
+  margin-top: 80px;
 }
 .kaufman_triangle{
   position: absolute;
@@ -238,6 +238,7 @@
   width: 877px;
   z-index: -1;
 }
+
 /**/
 .footer{
   background-color: #1f1f1f;
@@ -248,10 +249,10 @@
 }
 .footer__columns{
   display: flex;
-  border: 1px solid wheat;
   width: 90%;
-  margin-top: 60;
+  margin-top: 60px;
   margin-bottom: 40px;
+  justify-content: space-between;
 }
 .footer__column{
   color: #f2f2f2;
@@ -262,6 +263,9 @@
 .footer__author{
   color: #f2f2f2;
   margin: 18px 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
 }
 .footer_column_content_copyright{
   display: flex;
@@ -271,12 +275,22 @@
 }
 .footer__column-heading{
   margin: 0;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
 }
 .footer__column-links{
-  margin: 20px 0 16px; 
+  margin: 20px 0 16px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
 }
 .footer__social-icon{
   width: 16px;
   height: 16px;
   margin: 0 10px 0 0 ;
+}
+.footer__column-link{
+  color: #ffffff;
+  text-decoration: none;
 }
