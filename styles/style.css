@@ -84,6 +84,9 @@
   color: #2f80ed;
   text-decoration: none;
 }
+
+/* css description*/
+
 .two-columns{
   display: flex;
   justify-content: space-between;
@@ -117,7 +120,8 @@
   font-weight: bold;
 }
 
-/*block digits*/
+/*css digits*/
+
 .section-title{
   text-align: center;
   width: 60%;
@@ -162,7 +166,8 @@
   font-weight: normal;
 }
 
-/**/
+/*css feynman*/
+
 .feynman{
   position: relative;
   height: 890px;
@@ -207,7 +212,7 @@
   height: 637px;
 }
 
-/**/
+/*css kaufman*/
 
 .kaufman{
   background-color: #1f1f1f;
@@ -239,7 +244,7 @@
   z-index: -1;
 }
 
-/**/
+/*сss footer*/
 .footer{
   background-color: #1f1f1f;
   display: flex;
