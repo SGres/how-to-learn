@@ -203,6 +203,7 @@
   font-weight: normal;
   color: #2f80ed;
   text-decoration: none;
+  z-index: 2;
 }
 .feynman__img{
   position: absolute;
