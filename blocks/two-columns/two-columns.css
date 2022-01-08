@@ -1,0 +1,10 @@
+.two-columns {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto;
+    width: 80%;
+}
+.oakley > .two-columns {
+    margin: 0 auto;
+    padding: 160px 0 0 0;
+}
